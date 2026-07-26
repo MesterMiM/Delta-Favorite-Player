@@ -62,6 +62,6 @@ To test this as a WebXDC app:
 Developed by Mester Morgan
 
  - **Delta Chat Ecosystem Contributor**
- - **GitHub Profile**
+ - **GitHub: @MesterMiM**
 
 ***If you enjoyed this WebXDC app, please consider giving it a ⭐ on GitHub!***
