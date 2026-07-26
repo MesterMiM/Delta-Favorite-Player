@@ -47,7 +47,7 @@ Built natively for WebXDC without heavy dependencies:
 To test this as a WebXDC app:
 1. Clone the repository:
    ```bash
-   https://github.com/MesterMiM/Favorite-Player
+   https://github.com/MesterMiM/Delta-Favorite-Player
 2. Zip all the project files (ensure index.html is at the root of the zip archive).
 3. Change the file extension from .zip to .xdc (e.g., Favorite-Player.xdc).
 4. Send the file in any Delta Chat conversation and enjoy!
