@@ -12,8 +12,13 @@ This project is not just a standard web player; it is fully optimized for **WebX
 - **Interactive Sharing:** Send the app inside a Delta Chat conversation. The receiver can play your selected tracks, add or remove songs, and automatically generate a new `.xdc` package to share forward!
 - **Dynamic Authorship:** The "Last Editor" name automatically updates every time a user modifies the playlist and shares the new bundle.
 
----
+<p align="center">
+  <img src="./screenshot0.jpg" width="250" alt="Intro Screen" />
+  <img src="./screenshot1.jpg" width="250" alt="Main Screen" />
+  <img src="./screenshot2.jpg" width="250" alt="Button Screen" />
+</p>
 
+---
 ## ✨ Key Features
 
 - **Modern User Interface:** Sleek dark mode design combined with attractive glassmorphism effects.
