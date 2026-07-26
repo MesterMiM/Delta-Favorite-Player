@@ -1,56 +1,62 @@
-# 🎵 Favorite Player
+# 🎵 Favorite Player (WebXDC)
 
-A beautiful, lightweight, and modern web-based music player with stunning visual effects and easy playlist management. Built with a Glassmorphism UI and a dynamic video background, this player offers a delightful user experience.
+A beautiful, lightweight, and modern **WebXDC music player** designed specifically for the **Delta Chat ecosystem**. Built with a Glassmorphism UI and a dynamic video background, this app allows you to create, play, and share your favorite playlists directly within your chats.
 
 > **"Share Your Favorite Music"**
 
 ---
 
-## 🌟 Features
+## 🌟 Delta Chat & WebXDC Integration
+
+This project is not just a standard web player; it is fully optimized for **WebXDC**. 
+- **Interactive Sharing:** Send the app inside a Delta Chat conversation. The receiver can play your selected tracks, add or remove songs, and automatically generate a new `.xdc` package to share forward!
+- **Dynamic Authorship:** The "Last Editor" name automatically updates every time a user modifies the playlist and shares the new bundle.
+
+---
+
+## ✨ Key Features
 
 - **Modern User Interface:** Sleek dark mode design combined with attractive glassmorphism effects.
-- **Dynamic Video Background:** Uses a background video with smooth panning animations to reduce eye strain.
+- **Dynamic Video Background:** Smooth panning animations for an immersive experience.
 - **Intro Screen:** Features a dedicated, smoothly fading welcome screen.
-- **Playlist Management:** Select multiple audio files from your device, play them sequentially, and remove specific tracks as desired.
-- **Marquee Track Name:** The currently playing song's name scrolls smoothly across the top of the screen (Right-to-Left animation).
-- **Full Playback Controls:** Play, pause, next, and previous functionalities.
-- **Smart Auto-Play:** Autoplay triggers upon the user's first interaction (click/touch) to fully comply with modern browser security policies.
-- **Interactive Sharing (WebXDC Ready):** When shared, the receiver can act just like the original creator—adding or removing songs and generating a new package. The "Last Editor" name updates automatically upon each transfer.
+- **Playlist Management:** Select multiple audio files from your device, play them sequentially, and manage your tracks easily.
+- **Marquee Track Name:** The currently playing song's name smoothly scrolls across the top of the screen.
+- **Smart Auto-Play:** Complies with modern browser security policies by triggering autoplay upon the first interaction.
 
 ---
 
 ## 📱 Compatibility
 
-✅ **Windows:** Outstanding performance and fully stable.  
-✅ **Android:** Fully tested and highly responsive with excellent touch support. Includes custom `FileReader` logic for maximum compatibility.  
-⚠️ **iOS (iPhone/iPad):** Currently not fully supported. Due to strict iOS Safari restrictions, some animations and auto-play features may not function as intended. The primary focus of this project is Android and Windows.
+✅ **Windows (Delta Chat Desktop):** Outstanding performance and fully stable.  
+✅ **Android (Delta Chat Android):** Fully tested and highly responsive with excellent touch support. Includes custom `FileReader` logic for maximum compatibility within the WebXDC container.  
+⚠️ **iOS (iPhone/iPad):** Currently not fully supported due to strict iOS Safari constraints inside WebView. The primary focus of this project is Android and Windows environments.
 
 ---
 
 ## 🛠 Tech Stack
 
-This project is developed using pure web technologies without heavy frameworks:
-- **HTML5** (Structure and file inputs)
-- **CSS3** (Styling, Glassmorphism, and Keyframe animations)
-- **Vanilla JavaScript** (Playback logic, DOM manipulation, and user interactions)
-- **JSZip** (For generating and repacking new music bundles on the fly)
+Built natively for WebXDC without heavy dependencies:
+- **HTML5 & CSS3** (Structure, Glassmorphism, and Keyframe animations)
+- **Vanilla JavaScript** (Playback logic, DOM manipulation, and WebXDC state handling)
+- **JSZip** (For generating and repacking new `.xdc` music bundles on the fly)
 
 ---
 
-## 🚀 How to Run & Use
+## 🚀 How to Build & Test
 
-Running the project is incredibly simple:
-
+To test this as a WebXDC app:
 1. Clone the repository:
-```bash
-   git clone https://github.com/MesterMiM/Favorite-Player.git
-2. Navigate to the project folder.
-3. Open the index.html file in your preferred web browser (Chrome or Edge recommended).
-4. Click on the “Add Music” button, select your favorite tracks, and enjoy!
-(For Delta Chat users: You can package the project into an .xdc file and send it directly in your chats to share your playlist with friends!)
+   ```bash
+   https://github.com/MesterMiM/Favorite-Player
+2. Zip all the project files (ensure index.html is at the root of the zip archive).
+3. Change the file extension from .zip to .xdc (e.g., Favorite-Player.xdc).
+4. Send the file in any Delta Chat conversation and enjoy!
 
-👨‍💻 Developer
-Developed by Mester Thirteen (Mr. 13)
+## 👨‍💻 Developer
 
-GitHub Profile
-If you enjoyed using this project, please consider giving it a ⭐ on GitHub!
+Developed by Mester Morgan
+
+ - **Delta Chat Ecosystem Contributor**
+ - **GitHub Profile**
+
+***If you enjoyed this WebXDC app, please consider giving it a ⭐ on GitHub!***
