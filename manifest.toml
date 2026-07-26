@@ -1,0 +1,5 @@
+name = "Favorite Player"
+subtitle = "Share Your Favorite Musics"
+description = "A beautiful local music player with equalizer and playlist management."
+source_code_url = "https://github.com/MesterMiM/Delta-Favorite-Player"
+icon = "icon.png"

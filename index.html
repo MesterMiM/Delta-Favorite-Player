@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Favorite Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 1. صفحه اینترو -->
+    <div id="intro-screen">
+        <h1 id="intro-title">
+            <span id="owner-name"></span><br>
+            <span class="sub-title">Favorite Musics</span>
+        </h1>
+        <img src="10e8aa75-d007-43cf-ba31-a9404dbb6864.png" alt="Intro Image">
+    </div>
+
+    <!-- 2. ویدئوی پس‌زمینه اکولایزر -->
+    <video id="bg-video" autoplay loop muted playsinline><source src="584afe11-a203-4f36-a723-78fff2d7cd97.mp4" type="video/mp4"></video>
+
+
+    <!-- 3. رابط کاربری اصلی -->
+    <div id="app-container" style="display: none;">
+        
+        <div class="top-controls">
+            <input type="file" id="file-input" accept="audio/*" multiple>
+            <label for="file-input" id="add-btn" class="btn">➕ <span id="text-add">Add Music</span></label>
+            <button id="mode-btn" class="btn">🔁 All</button>
+	    <button id="share-app-btn" class="btn" style="background: rgba(204, 164, 168, 0.4);">🚀 Share</button>
+        </div>
+
+        <audio id="audio-player"></audio>
+
+       <div class="player-controls">
+            <button id="prev-btn" class="ctrl-btn">⏮</button>
+            <button id="play-btn" class="ctrl-btn play-pause">▶</button>
+            <button id="next-btn" class="ctrl-btn">⏭</button>
+        </div>
+           
+        <h3 id="current-track-name">No track selected</h3>
+
+        <ul id="playlist"></ul>
+    </div>
+
+    <!-- 4. مودال راهنما -->
+    <div id="guide-modal" class="hidden">
+        <div class="modal-content">
+            <h2 id="guide-title">Welcome!</h2>
+            <p id="guide-text">Select your favorite songs. They will be saved automatically for next time!</p>
+            <button id="close-guide" class="btn">Got it!</button>
+        </div>
+    </div>
+
+<!-- اضافه کردن کتابخانه JSZip قبل از اسکریپت اصلی -->
+    <script src="jszip.min.js"></script>
+    <script src="webxdc.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
